@@ -28,7 +28,7 @@ export async function handler() {
       {
         label: '🤬',
         value: '🤬',
-        hint: 'take care',
+        hint: 'take-a-care',
       },
     ],
   })
