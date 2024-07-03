@@ -2,6 +2,7 @@
   "name": "test-starter",
   "version": "1.0.0",
   "description": "Starts tests for multiple squads across multiple environments.",
+  "private": true,
   "bin": {
     "test-starter": "./bin/run"
   },
@@ -13,6 +14,10 @@
     "dist",
     "bin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/turekbot/test-starter.git"
+  },
   "scripts": {
     "build": "tsup-node",
     "build:watch": "tsup-node --watch",
